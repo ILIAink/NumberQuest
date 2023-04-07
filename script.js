@@ -30,6 +30,7 @@ document.querySelector('.check').addEventListener('click', function () {
       }
     } else {
       setMessage('😢 You lost :(');
+      setCSS('body', 'backgroundColor', '#b34747');
       setScore(0);
     }
   }
